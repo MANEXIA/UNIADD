@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+ 
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(img/hand-dra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.row{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque; 
+}
+
+.row input{
+   width: 200px;
+   padding: 10px;
+   margin: 20px;
+   border:2px solid rgb(71, 21, 21);
+}
+
+
+.row button{
+    width: 100px;
+    margin: 10px;
+    background-color: inherit;
+    padding: 5px;
+    border:2px solid rgb(71, 21, 21);
+    font-weight: bold;
+    color: rgb(71, 21, 21);
+ }
+
+form .lgbtn{
+    background-color: rgb(71, 21, 21);
+    color: white;
+    transition:all 0.2s ease-in-out;
+}
+
+form .lgbtn:hover{
+    background-color: inherit;
+    color: rgb(71, 21, 21);
+}
+
+.row .spbtn{
+    
+    transition:all 0.2s ease-in-out;
+ }
+
+ .row .spbtn:hover{
+    background-color: rgb(71, 21, 21);
+    color: white;
+ }
+
+
+ .row select{
+    border: 2px solid rgb(71, 21, 21);
+    padding:5px;
+    width: 200px;
+    margin: 20px;
+ }
+
+ .sign-up{
+    display: none;
+    position: absolute;
+    box-shadow:-10px  10px 1px 1px;
+ }
+
+ .sign-up .spsubmit{
+    background-color: rgb(71, 21, 21);
+    color: white;
+    transition:all 0.2s ease-in-out;
+ }
+ 
+ .sign-up .spsubmit:hover{
+    background-color: inherit;
+    color: rgb(71, 21, 21);
+ }
+
+ .sign-up .spback:hover{
+    background-color: rgb(71, 21, 21);
+    color: white;
+    transition:all 0.2s ease-in-out;
+ }
+
+
+/* MAINNN PAGEEEE */
+ 
+ 
